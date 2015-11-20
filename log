@@ -1,0 +1,489 @@
+Standalone_TDT            INFO    Environment initialised for data access
+xAODConfigTool            INFO    Initialising...
+TrigDecTool               INFO    Initializing Trig::TrigDecisionTool
+TrigDecTool               INFO    using new decision
+TrigDecTool               INFO    Initialized TDT
+TrigDecTool               WARNING Several TrigDecisionTool instances
+TrigDecTool               WARNING This not to efficent from performance perspective. Access of the same EDM objects will give warnings. Continues anyway ...
+TrigDecTool               INFO    Initializing Trig::TrigDecisionTool
+TrigDecTool               INFO    using new decision
+TrigDecTool               INFO    Initialized TDT
+ClientTool                INFO    initialize client
+xAODConfigTool            INFO    Loaded configuration:
+xAODConfigTool            INFO      SMK = 0, L1PSK = 0, HLTPSK = 0
+asg::SgTEvent             WARNING No xAOD::TStore object is available
+TrigDecTool               INFO    updating config with SMK: 0 and L1PSK: 0 and HLTPSK: 0
+Standalone_TDT            INFO    Processing entry 0
+asg::SgTEvent             WARNING No xAOD::TStore object is available
+Standalone_TDT            INFO    overall result L1: 1, L2: 0, EF: 0, HLT: 1
+ClientTool                INFO    Matching with imt
+asg::SgTEvent             WARNING No xAOD::TStore object is available
+ClientTool                INFO    Event has 3 reco Electrons and 0 reco Muons
+ClientTool                INFO    matching electrons
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_e20_vloose
+ExpertMatchingTool        DEBUG   is passed: 1
+ExpertMatchingTool        DEBUG   number of combinations: 1
+ExpertMatchingTool        DEBUG   Matching combination with 1 TEs
+ExpertMatchingTool        VERBOSE processing individual reco type: N4xAOD11Electron_v1E
+ExpertMatchingTool        VERBOSE recos size is: 1
+ExpertMatchingTool        VERBOSE trig type is: N4xAOD15TrigElectron_v1E
+ExpertMatchingTool        VERBOSE trig container type is: 10DataVectorIN4xAOD15TrigElectron_v1ES_INS0_9IParticleEN16DataModel_detail6NoBaseEEE
+ExpertMatchingTool        VERBOSE label is set: 0 selected: ""
+FeatureAccessImpl::getTypelessBits WARNING Retrieving a container that has TrigPassBits attached to it
+FeatureAccessImpl::getTypelessBits WARNING But it's not possible to use TrigPassBits in standalone mode
+FeatureAccessImpl::getTypelessBits WARNING So, keep in mind that some of the returned objects didn't actually pass the required chain
+ExpertMatchingTool        VERBOSE number of features (flattened): 1
+ExpertMatchingTool        VERBOSE making distance matrix
+ExpertMatchingTool        VERBOSE size of recos: 1
+ExpertMatchingTool        VERBOSE size of trigs: 1
+ExpertMatchingTool        DEBUG   user overridden metric: 0
+ExpertMatchingTool        VERBOSE ===========
+ExpertMatchingTool        VERBOSE |0.0559981 , |
+ExpertMatchingTool        VERBOSE ===========
+ExpertMatchingTool        INFO    checking if association is matched with cutoff: 0.4
+ExpertMatchingTool        DEBUG   name: N4xAOD7Muon_v1E result: 1
+ExpertMatchingTool        DEBUG   name: N4xAOD11Electron_v1E result: 1
+ExpertMatchingTool        DEBUG   overall result for this combination: yes
+ExpertMatchingTool        DEBUG   combo result: yes
+ExpertMatchingTool        DEBUG   match result: yes
+ClientTool                INFO    match electron chain: 1
+Standalone_TDT            INFO    Processing entry 1
+Standalone_TDT            INFO    overall result L1: 1, L2: 0, EF: 0, HLT: 1
+ClientTool                INFO    Matching with imt
+ClientTool                INFO    Event has 6 reco Electrons and 1 reco Muons
+ClientTool                INFO    matching electrons
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_e20_vloose
+ExpertMatchingTool        DEBUG   is passed: 0
+ClientTool                INFO    match electron chain: 0
+ClientTool                INFO    matching muons and electrons
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_e17_loose_mu14
+ExpertMatchingTool        DEBUG   is passed: 0
+ClientTool                INFO    match mixed chain: 0
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_e17_loose_mu14
+ExpertMatchingTool        DEBUG   is passed: 0
+ClientTool                INFO    match mixed chain (both metrices): 0
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_e17_loose_mu14
+ExpertMatchingTool        DEBUG   is passed: 0
+ClientTool                INFO    match mixed chain (one metric): 0
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_e17_loose_mu14
+ExpertMatchingTool        DEBUG   is passed: 0
+ClientTool                INFO    match mixed chain (one metric): 0
+Standalone_TDT            INFO    Processing entry 2
+Standalone_TDT            INFO    overall result L1: 1, L2: 0, EF: 0, HLT: 1
+ClientTool                INFO    Matching with imt
+ClientTool                INFO    Event has 4 reco Electrons and 1 reco Muons
+ClientTool                INFO    matching electrons
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_e20_vloose
+ExpertMatchingTool        DEBUG   is passed: 0
+ClientTool                INFO    match electron chain: 0
+ClientTool                INFO    matching muons and electrons
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_e17_loose_mu14
+ExpertMatchingTool        DEBUG   is passed: 0
+ClientTool                INFO    match mixed chain: 0
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_e17_loose_mu14
+ExpertMatchingTool        DEBUG   is passed: 0
+ClientTool                INFO    match mixed chain (both metrices): 0
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_e17_loose_mu14
+ExpertMatchingTool        DEBUG   is passed: 0
+ClientTool                INFO    match mixed chain (one metric): 0
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_e17_loose_mu14
+ExpertMatchingTool        DEBUG   is passed: 0
+ClientTool                INFO    match mixed chain (one metric): 0
+Standalone_TDT            INFO    Processing entry 3
+Standalone_TDT            INFO    overall result L1: 1, L2: 0, EF: 0, HLT: 1
+ClientTool                INFO    Matching with imt
+ClientTool                INFO    Event has 2 reco Electrons and 3 reco Muons
+ClientTool                INFO    matching electrons
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_e20_vloose
+ExpertMatchingTool        DEBUG   is passed: 0
+ClientTool                INFO    match electron chain: 0
+ClientTool                INFO    matching muons
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_2mu10
+ExpertMatchingTool        DEBUG   is passed: 0
+ClientTool                INFO    match di-muon chain (leading): 0
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_2mu10
+ExpertMatchingTool        DEBUG   is passed: 0
+ClientTool                INFO    match di-muon chain (leading, inverted): 0
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_2mu10
+ExpertMatchingTool        DEBUG   is passed: 0
+ClientTool                INFO    match di-muon chain (sub, subsub): 0
+ClientTool                INFO    matching muons and electrons
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_e17_loose_mu14
+ExpertMatchingTool        DEBUG   is passed: 0
+ClientTool                INFO    match mixed chain: 0
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_e17_loose_mu14
+ExpertMatchingTool        DEBUG   is passed: 0
+ClientTool                INFO    match mixed chain (both metrices): 0
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_e17_loose_mu14
+ExpertMatchingTool        DEBUG   is passed: 0
+ClientTool                INFO    match mixed chain (one metric): 0
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_e17_loose_mu14
+ExpertMatchingTool        DEBUG   is passed: 0
+ClientTool                INFO    match mixed chain (one metric): 0
+Standalone_TDT            INFO    Processing entry 4
+Standalone_TDT            INFO    overall result L1: 1, L2: 0, EF: 0, HLT: 1
+ClientTool                INFO    Matching with imt
+ClientTool                INFO    Event has 5 reco Electrons and 1 reco Muons
+ClientTool                INFO    matching electrons
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_e20_vloose
+ExpertMatchingTool        DEBUG   is passed: 0
+ClientTool                INFO    match electron chain: 0
+ClientTool                INFO    matching muons and electrons
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_e17_loose_mu14
+ExpertMatchingTool        DEBUG   is passed: 0
+ClientTool                INFO    match mixed chain: 0
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_e17_loose_mu14
+ExpertMatchingTool        DEBUG   is passed: 0
+ClientTool                INFO    match mixed chain (both metrices): 0
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_e17_loose_mu14
+ExpertMatchingTool        DEBUG   is passed: 0
+ClientTool                INFO    match mixed chain (one metric): 0
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_e17_loose_mu14
+ExpertMatchingTool        DEBUG   is passed: 0
+ClientTool                INFO    match mixed chain (one metric): 0
+Standalone_TDT            INFO    Processing entry 5
+Standalone_TDT            INFO    overall result L1: 1, L2: 0, EF: 0, HLT: 1
+ClientTool                INFO    Matching with imt
+ClientTool                INFO    Event has 8 reco Electrons and 2 reco Muons
+ClientTool                INFO    matching electrons
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_e20_vloose
+ExpertMatchingTool        DEBUG   is passed: 1
+ExpertMatchingTool        DEBUG   number of combinations: 1
+ExpertMatchingTool        DEBUG   Matching combination with 1 TEs
+ExpertMatchingTool        VERBOSE processing individual reco type: N4xAOD11Electron_v1E
+ExpertMatchingTool        VERBOSE recos size is: 1
+ExpertMatchingTool        VERBOSE trig type is: N4xAOD15TrigElectron_v1E
+ExpertMatchingTool        VERBOSE trig container type is: 10DataVectorIN4xAOD15TrigElectron_v1ES_INS0_9IParticleEN16DataModel_detail6NoBaseEEE
+ExpertMatchingTool        VERBOSE label is set: 0 selected: ""
+ExpertMatchingTool        VERBOSE number of features (flattened): 1
+ExpertMatchingTool        VERBOSE making distance matrix
+ExpertMatchingTool        VERBOSE size of recos: 1
+ExpertMatchingTool        VERBOSE size of trigs: 1
+ExpertMatchingTool        DEBUG   user overridden metric: 0
+ExpertMatchingTool        VERBOSE ===========
+ExpertMatchingTool        VERBOSE |0.00356945 , |
+ExpertMatchingTool        VERBOSE ===========
+ExpertMatchingTool        INFO    checking if association is matched with cutoff: 0.4
+ExpertMatchingTool        DEBUG   name: N4xAOD7Muon_v1E result: 1
+ExpertMatchingTool        DEBUG   name: N4xAOD11Electron_v1E result: 1
+ExpertMatchingTool        DEBUG   overall result for this combination: yes
+ExpertMatchingTool        DEBUG   combo result: yes
+ExpertMatchingTool        DEBUG   match result: yes
+ClientTool                INFO    match electron chain: 1
+ClientTool                INFO    matching muons and electrons
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_e17_loose_mu14
+ExpertMatchingTool        DEBUG   is passed: 1
+ExpertMatchingTool        DEBUG   number of combinations: 1
+ExpertMatchingTool        DEBUG   Matching combination with 2 TEs
+ExpertMatchingTool        VERBOSE processing individual reco type: N4xAOD7Muon_v1E
+ExpertMatchingTool        VERBOSE recos size is: 1
+ExpertMatchingTool        VERBOSE trig type is: N4xAOD17L2CombinedMuon_v1E
+ExpertMatchingTool        VERBOSE trig container type is: 10DataVectorIN4xAOD17L2CombinedMuon_v1ES_INS0_9IParticleEN16DataModel_detail6NoBaseEEE
+ExpertMatchingTool        VERBOSE label is set: 0 selected: ""
+ExpertMatchingTool        VERBOSE number of features (flattened): 1
+ExpertMatchingTool        VERBOSE making distance matrix
+ExpertMatchingTool        VERBOSE size of recos: 1
+ExpertMatchingTool        VERBOSE size of trigs: 1
+ExpertMatchingTool        DEBUG   user overridden metric: 0
+ExpertMatchingTool        VERBOSE ===========
+ExpertMatchingTool        VERBOSE |0.000488785 , |
+ExpertMatchingTool        VERBOSE ===========
+ExpertMatchingTool        INFO    checking if association is matched with cutoff: 0.4
+ExpertMatchingTool        VERBOSE processing individual reco type: N4xAOD11Electron_v1E
+ExpertMatchingTool        VERBOSE recos size is: 1
+ExpertMatchingTool        VERBOSE trig type is: N4xAOD15TrigElectron_v1E
+ExpertMatchingTool        VERBOSE trig container type is: 10DataVectorIN4xAOD15TrigElectron_v1ES_INS0_9IParticleEN16DataModel_detail6NoBaseEEE
+ExpertMatchingTool        VERBOSE label is set: 0 selected: ""
+ExpertMatchingTool        VERBOSE number of features (flattened): 1
+ExpertMatchingTool        VERBOSE making distance matrix
+ExpertMatchingTool        VERBOSE size of recos: 1
+ExpertMatchingTool        VERBOSE size of trigs: 1
+ExpertMatchingTool        DEBUG   user overridden metric: 0
+ExpertMatchingTool        VERBOSE ===========
+ExpertMatchingTool        VERBOSE |0.00356945 , |
+ExpertMatchingTool        VERBOSE ===========
+ExpertMatchingTool        INFO    checking if association is matched with cutoff: 0.4
+ExpertMatchingTool        DEBUG   name: N4xAOD7Muon_v1E result: 1
+ExpertMatchingTool        DEBUG   name: N4xAOD11Electron_v1E result: 1
+ExpertMatchingTool        DEBUG   overall result for this combination: yes
+ExpertMatchingTool        DEBUG   combo result: yes
+ExpertMatchingTool        DEBUG   match result: yes
+ClientTool                INFO    match mixed chain: 1
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_e17_loose_mu14
+ExpertMatchingTool        DEBUG   is passed: 1
+ExpertMatchingTool        DEBUG   number of combinations: 1
+ExpertMatchingTool        DEBUG   Matching combination with 2 TEs
+ExpertMatchingTool        VERBOSE processing individual reco type: N4xAOD7Muon_v1E
+ExpertMatchingTool        VERBOSE recos size is: 1
+ExpertMatchingTool        VERBOSE trig type is: N4xAOD17L2CombinedMuon_v1E
+ExpertMatchingTool        VERBOSE trig container type is: 10DataVectorIN4xAOD17L2CombinedMuon_v1ES_INS0_9IParticleEN16DataModel_detail6NoBaseEEE
+ExpertMatchingTool        VERBOSE label is set: 0 selected: ""
+ExpertMatchingTool        VERBOSE number of features (flattened): 1
+ExpertMatchingTool        VERBOSE making distance matrix
+ExpertMatchingTool        VERBOSE size of recos: 1
+ExpertMatchingTool        VERBOSE size of trigs: 1
+ExpertMatchingTool        DEBUG   user overridden metric: 1
+=================> custom mu metric
+ExpertMatchingTool        VERBOSE ===========
+ExpertMatchingTool        VERBOSE |0.000488785 , |
+ExpertMatchingTool        VERBOSE ===========
+ExpertMatchingTool        INFO    checking if association is matched with cutoff: 0.2
+ExpertMatchingTool        VERBOSE processing individual reco type: N4xAOD11Electron_v1E
+ExpertMatchingTool        VERBOSE recos size is: 1
+ExpertMatchingTool        VERBOSE trig type is: N4xAOD15TrigElectron_v1E
+ExpertMatchingTool        VERBOSE trig container type is: 10DataVectorIN4xAOD15TrigElectron_v1ES_INS0_9IParticleEN16DataModel_detail6NoBaseEEE
+ExpertMatchingTool        VERBOSE label is set: 0 selected: ""
+ExpertMatchingTool        VERBOSE number of features (flattened): 1
+ExpertMatchingTool        VERBOSE making distance matrix
+ExpertMatchingTool        VERBOSE size of recos: 1
+ExpertMatchingTool        VERBOSE size of trigs: 1
+ExpertMatchingTool        DEBUG   user overridden metric: 1
+=================> custom el metric
+ExpertMatchingTool        VERBOSE ===========
+ExpertMatchingTool        VERBOSE |0.00356945 , |
+ExpertMatchingTool        VERBOSE ===========
+ExpertMatchingTool        INFO    checking if association is matched with cutoff: 0.3
+ExpertMatchingTool        DEBUG   name: N4xAOD7Muon_v1E result: 1
+ExpertMatchingTool        DEBUG   name: N4xAOD11Electron_v1E result: 1
+ExpertMatchingTool        DEBUG   overall result for this combination: yes
+ExpertMatchingTool        DEBUG   combo result: yes
+ExpertMatchingTool        DEBUG   match result: yes
+ClientTool                INFO    match mixed chain (both metrices): 1
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_e17_loose_mu14
+ExpertMatchingTool        DEBUG   is passed: 1
+ExpertMatchingTool        DEBUG   number of combinations: 1
+ExpertMatchingTool        DEBUG   Matching combination with 2 TEs
+ExpertMatchingTool        VERBOSE processing individual reco type: N4xAOD7Muon_v1E
+ExpertMatchingTool        VERBOSE recos size is: 1
+ExpertMatchingTool        VERBOSE trig type is: N4xAOD17L2CombinedMuon_v1E
+ExpertMatchingTool        VERBOSE trig container type is: 10DataVectorIN4xAOD17L2CombinedMuon_v1ES_INS0_9IParticleEN16DataModel_detail6NoBaseEEE
+ExpertMatchingTool        VERBOSE label is set: 0 selected: ""
+ExpertMatchingTool        VERBOSE number of features (flattened): 1
+ExpertMatchingTool        VERBOSE making distance matrix
+ExpertMatchingTool        VERBOSE size of recos: 1
+ExpertMatchingTool        VERBOSE size of trigs: 1
+ExpertMatchingTool        DEBUG   user overridden metric: 0
+ExpertMatchingTool        VERBOSE ===========
+ExpertMatchingTool        VERBOSE |0.000488785 , |
+ExpertMatchingTool        VERBOSE ===========
+ExpertMatchingTool        INFO    checking if association is matched with cutoff: 0.4
+ExpertMatchingTool        VERBOSE processing individual reco type: N4xAOD11Electron_v1E
+ExpertMatchingTool        VERBOSE recos size is: 1
+ExpertMatchingTool        VERBOSE trig type is: N4xAOD15TrigElectron_v1E
+ExpertMatchingTool        VERBOSE trig container type is: 10DataVectorIN4xAOD15TrigElectron_v1ES_INS0_9IParticleEN16DataModel_detail6NoBaseEEE
+ExpertMatchingTool        VERBOSE label is set: 0 selected: ""
+ExpertMatchingTool        VERBOSE number of features (flattened): 1
+ExpertMatchingTool        VERBOSE making distance matrix
+ExpertMatchingTool        VERBOSE size of recos: 1
+ExpertMatchingTool        VERBOSE size of trigs: 1
+ExpertMatchingTool        DEBUG   user overridden metric: 1
+=================> custom el metric
+ExpertMatchingTool        VERBOSE ===========
+ExpertMatchingTool        VERBOSE |0.00356945 , |
+ExpertMatchingTool        VERBOSE ===========
+ExpertMatchingTool        INFO    checking if association is matched with cutoff: 0.3
+ExpertMatchingTool        DEBUG   name: N4xAOD7Muon_v1E result: 1
+ExpertMatchingTool        DEBUG   name: N4xAOD11Electron_v1E result: 1
+ExpertMatchingTool        DEBUG   overall result for this combination: yes
+ExpertMatchingTool        DEBUG   combo result: yes
+ExpertMatchingTool        DEBUG   match result: yes
+ClientTool                INFO    match mixed chain (one metric): 1
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_e17_loose_mu14
+ExpertMatchingTool        DEBUG   is passed: 1
+ExpertMatchingTool        DEBUG   number of combinations: 1
+ExpertMatchingTool        DEBUG   Matching combination with 2 TEs
+ExpertMatchingTool        VERBOSE processing individual reco type: N4xAOD7Muon_v1E
+ExpertMatchingTool        VERBOSE recos size is: 1
+ExpertMatchingTool        VERBOSE trig type is: N4xAOD17L2CombinedMuon_v1E
+ExpertMatchingTool        VERBOSE trig container type is: 10DataVectorIN4xAOD17L2CombinedMuon_v1ES_INS0_9IParticleEN16DataModel_detail6NoBaseEEE
+ExpertMatchingTool        VERBOSE label is set: 0 selected: ""
+ExpertMatchingTool        VERBOSE number of features (flattened): 1
+ExpertMatchingTool        VERBOSE making distance matrix
+ExpertMatchingTool        VERBOSE size of recos: 1
+ExpertMatchingTool        VERBOSE size of trigs: 1
+ExpertMatchingTool        DEBUG   user overridden metric: 1
+ExpertMatchingTool        VERBOSE ===========
+ExpertMatchingTool        VERBOSE |0.0141977 , |
+ExpertMatchingTool        VERBOSE ===========
+ExpertMatchingTool        INFO    checking if association is matched with cutoff: 0.3
+ExpertMatchingTool        VERBOSE processing individual reco type: N4xAOD11Electron_v1E
+ExpertMatchingTool        VERBOSE recos size is: 1
+ExpertMatchingTool        VERBOSE trig type is: N4xAOD15TrigElectron_v1E
+ExpertMatchingTool        VERBOSE trig container type is: 10DataVectorIN4xAOD15TrigElectron_v1ES_INS0_9IParticleEN16DataModel_detail6NoBaseEEE
+ExpertMatchingTool        VERBOSE label is set: 0 selected: ""
+ExpertMatchingTool        VERBOSE number of features (flattened): 1
+ExpertMatchingTool        VERBOSE making distance matrix
+ExpertMatchingTool        VERBOSE size of recos: 1
+ExpertMatchingTool        VERBOSE size of trigs: 1
+ExpertMatchingTool        DEBUG   user overridden metric: 0
+ExpertMatchingTool        VERBOSE ===========
+ExpertMatchingTool        VERBOSE |0.00356945 , |
+ExpertMatchingTool        VERBOSE ===========
+ExpertMatchingTool        INFO    checking if association is matched with cutoff: 0.4
+ExpertMatchingTool        DEBUG   name: N4xAOD7Muon_v1E result: 1
+ExpertMatchingTool        DEBUG   name: N4xAOD11Electron_v1E result: 1
+ExpertMatchingTool        DEBUG   overall result for this combination: yes
+ExpertMatchingTool        DEBUG   combo result: yes
+ExpertMatchingTool        DEBUG   match result: yes
+ClientTool                INFO    match mixed chain (one metric): 1
+Standalone_TDT            INFO    Processing entry 6
+Standalone_TDT            INFO    overall result L1: 1, L2: 0, EF: 0, HLT: 1
+ClientTool                INFO    Matching with imt
+ClientTool                INFO    Event has 7 reco Electrons and 4 reco Muons
+ClientTool                INFO    matching electrons
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_e20_vloose
+ExpertMatchingTool        DEBUG   is passed: 0
+ClientTool                INFO    match electron chain: 0
+ClientTool                INFO    matching muons
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_2mu10
+ExpertMatchingTool        DEBUG   is passed: 1
+ExpertMatchingTool        DEBUG   number of combinations: 1
+ExpertMatchingTool        DEBUG   Matching combination with 2 TEs
+ExpertMatchingTool        VERBOSE processing individual reco type: N4xAOD7Muon_v1E
+ExpertMatchingTool        VERBOSE recos size is: 2
+ExpertMatchingTool        VERBOSE trig type is: N4xAOD17L2CombinedMuon_v1E
+ExpertMatchingTool        VERBOSE trig container type is: 10DataVectorIN4xAOD17L2CombinedMuon_v1ES_INS0_9IParticleEN16DataModel_detail6NoBaseEEE
+ExpertMatchingTool        VERBOSE label is set: 0 selected: ""
+ExpertMatchingTool        VERBOSE number of features (flattened): 2
+ExpertMatchingTool        VERBOSE making distance matrix
+ExpertMatchingTool        VERBOSE size of recos: 2
+ExpertMatchingTool        VERBOSE size of trigs: 2
+ExpertMatchingTool        DEBUG   user overridden metric: 0
+ExpertMatchingTool        VERBOSE ===========
+ExpertMatchingTool        VERBOSE |3.94916e-05 , 1.64514 , |
+ExpertMatchingTool        VERBOSE |1.64544 , 0.000701155 , |
+ExpertMatchingTool        VERBOSE ===========
+ExpertMatchingTool        INFO    checking if association is matched with cutoff: 0.4
+ExpertMatchingTool        DEBUG   name: N4xAOD7Muon_v1E result: 1
+ExpertMatchingTool        DEBUG   name: N4xAOD11Electron_v1E result: 1
+ExpertMatchingTool        DEBUG   overall result for this combination: yes
+ExpertMatchingTool        DEBUG   combo result: yes
+ExpertMatchingTool        DEBUG   match result: yes
+ClientTool                INFO    match di-muon chain (leading): 1
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_2mu10
+ExpertMatchingTool        DEBUG   is passed: 1
+ExpertMatchingTool        DEBUG   number of combinations: 1
+ExpertMatchingTool        DEBUG   Matching combination with 2 TEs
+ExpertMatchingTool        VERBOSE processing individual reco type: N4xAOD7Muon_v1E
+ExpertMatchingTool        VERBOSE recos size is: 2
+ExpertMatchingTool        VERBOSE trig type is: N4xAOD17L2CombinedMuon_v1E
+ExpertMatchingTool        VERBOSE trig container type is: 10DataVectorIN4xAOD17L2CombinedMuon_v1ES_INS0_9IParticleEN16DataModel_detail6NoBaseEEE
+ExpertMatchingTool        VERBOSE label is set: 0 selected: ""
+ExpertMatchingTool        VERBOSE number of features (flattened): 2
+ExpertMatchingTool        VERBOSE making distance matrix
+ExpertMatchingTool        VERBOSE size of recos: 2
+ExpertMatchingTool        VERBOSE size of trigs: 2
+ExpertMatchingTool        DEBUG   user overridden metric: 0
+ExpertMatchingTool        VERBOSE ===========
+ExpertMatchingTool        VERBOSE |1.64544 , 0.000701155 , |
+ExpertMatchingTool        VERBOSE |3.94916e-05 , 1.64514 , |
+ExpertMatchingTool        VERBOSE ===========
+ExpertMatchingTool        INFO    checking if association is matched with cutoff: 0.4
+ExpertMatchingTool        DEBUG   name: N4xAOD7Muon_v1E result: 1
+ExpertMatchingTool        DEBUG   name: N4xAOD11Electron_v1E result: 1
+ExpertMatchingTool        DEBUG   overall result for this combination: yes
+ExpertMatchingTool        DEBUG   combo result: yes
+ExpertMatchingTool        DEBUG   match result: yes
+ClientTool                INFO    match di-muon chain (leading, inverted): 1
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_2mu10
+ExpertMatchingTool        DEBUG   is passed: 1
+ExpertMatchingTool        DEBUG   number of combinations: 1
+ExpertMatchingTool        DEBUG   Matching combination with 2 TEs
+ExpertMatchingTool        VERBOSE processing individual reco type: N4xAOD7Muon_v1E
+ExpertMatchingTool        VERBOSE recos size is: 2
+ExpertMatchingTool        VERBOSE trig type is: N4xAOD17L2CombinedMuon_v1E
+ExpertMatchingTool        VERBOSE trig container type is: 10DataVectorIN4xAOD17L2CombinedMuon_v1ES_INS0_9IParticleEN16DataModel_detail6NoBaseEEE
+ExpertMatchingTool        VERBOSE label is set: 0 selected: ""
+ExpertMatchingTool        VERBOSE number of features (flattened): 2
+ExpertMatchingTool        VERBOSE making distance matrix
+ExpertMatchingTool        VERBOSE size of recos: 2
+ExpertMatchingTool        VERBOSE size of trigs: 2
+ExpertMatchingTool        DEBUG   user overridden metric: 0
+ExpertMatchingTool        VERBOSE ===========
+ExpertMatchingTool        VERBOSE |1.64544 , 0.000701155 , |
+ExpertMatchingTool        VERBOSE |3.0197 , 2.53478 , |
+ExpertMatchingTool        VERBOSE ===========
+ExpertMatchingTool        INFO    checking if association is matched with cutoff: 0.4
+ExpertMatchingTool        DEBUG   name: N4xAOD7Muon_v1E result: 0
+ExpertMatchingTool        DEBUG   name: N4xAOD11Electron_v1E result: 1
+ExpertMatchingTool        DEBUG   overall result for this combination: no
+ExpertMatchingTool        DEBUG   combo result: no
+ExpertMatchingTool        DEBUG   match result: no
+ClientTool                INFO    match di-muon chain (sub, subsub): 0
+ClientTool                INFO    matching muons and electrons
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_e17_loose_mu14
+ExpertMatchingTool        DEBUG   is passed: 0
+ClientTool                INFO    match mixed chain: 0
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_e17_loose_mu14
+ExpertMatchingTool        DEBUG   is passed: 0
+ClientTool                INFO    match mixed chain (both metrices): 0
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_e17_loose_mu14
+ExpertMatchingTool        DEBUG   is passed: 0
+ClientTool                INFO    match mixed chain (one metric): 0
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_e17_loose_mu14
+ExpertMatchingTool        DEBUG   is passed: 0
+ClientTool                INFO    match mixed chain (one metric): 0
+Standalone_TDT            INFO    Processing entry 7
+Standalone_TDT            INFO    overall result L1: 1, L2: 0, EF: 0, HLT: 1
+ClientTool                INFO    Matching with imt
+ClientTool                INFO    Event has 6 reco Electrons and 0 reco Muons
+ClientTool                INFO    matching electrons
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_e20_vloose
+ExpertMatchingTool        DEBUG   is passed: 0
+ClientTool                INFO    match electron chain: 0
+Standalone_TDT            INFO    Processing entry 8
+Standalone_TDT            INFO    overall result L1: 1, L2: 0, EF: 0, HLT: 1
+ClientTool                INFO    Matching with imt
+ClientTool                INFO    Event has 8 reco Electrons and 1 reco Muons
+ClientTool                INFO    matching electrons
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_e20_vloose
+ExpertMatchingTool        DEBUG   is passed: 0
+ClientTool                INFO    match electron chain: 0
+ClientTool                INFO    matching muons and electrons
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_e17_loose_mu14
+ExpertMatchingTool        DEBUG   is passed: 0
+ClientTool                INFO    match mixed chain: 0
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_e17_loose_mu14
+ExpertMatchingTool        DEBUG   is passed: 0
+ClientTool                INFO    match mixed chain (both metrices): 0
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_e17_loose_mu14
+ExpertMatchingTool        DEBUG   is passed: 0
+ClientTool                INFO    match mixed chain (one metric): 0
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_e17_loose_mu14
+ExpertMatchingTool        DEBUG   is passed: 0
+ClientTool                INFO    match mixed chain (one metric): 0
+Standalone_TDT            INFO    Processing entry 9
+Standalone_TDT            INFO    overall result L1: 1, L2: 0, EF: 0, HLT: 1
+ClientTool                INFO    Matching with imt
+ClientTool                INFO    Event has 4 reco Electrons and 0 reco Muons
+ClientTool                INFO    matching electrons
+ExpertMatchingTool        DEBUG   Matching to chain: HLT_e20_vloose
+ExpertMatchingTool        DEBUG   is passed: 1
+ExpertMatchingTool        DEBUG   number of combinations: 1
+ExpertMatchingTool        DEBUG   Matching combination with 1 TEs
+ExpertMatchingTool        VERBOSE processing individual reco type: N4xAOD11Electron_v1E
+ExpertMatchingTool        VERBOSE recos size is: 1
+ExpertMatchingTool        VERBOSE trig type is: N4xAOD15TrigElectron_v1E
+ExpertMatchingTool        VERBOSE trig container type is: 10DataVectorIN4xAOD15TrigElectron_v1ES_INS0_9IParticleEN16DataModel_detail6NoBaseEEE
+ExpertMatchingTool        VERBOSE label is set: 0 selected: ""
+ExpertMatchingTool        VERBOSE number of features (flattened): 1
+ExpertMatchingTool        VERBOSE making distance matrix
+ExpertMatchingTool        VERBOSE size of recos: 1
+ExpertMatchingTool        VERBOSE size of trigs: 1
+ExpertMatchingTool        DEBUG   user overridden metric: 0
+ExpertMatchingTool        VERBOSE ===========
+ExpertMatchingTool        VERBOSE |0.0244554 , |
+ExpertMatchingTool        VERBOSE ===========
+ExpertMatchingTool        INFO    checking if association is matched with cutoff: 0.4
+ExpertMatchingTool        DEBUG   name: N4xAOD7Muon_v1E result: 1
+ExpertMatchingTool        DEBUG   name: N4xAOD11Electron_v1E result: 1
+ExpertMatchingTool        DEBUG   overall result for this combination: yes
+ExpertMatchingTool        DEBUG   combo result: yes
+ExpertMatchingTool        DEBUG   match result: yes
+ClientTool                INFO    match electron chain: 1
+xAOD::TFileAccessTracer   INFO    Sending file access statistics to http://rucio-lb-prod.cern.ch:18762/traces/
+Warning in <StatusCode>:
+Warning in <StatusCode>: Unchecked status codes encountered during the job
+Warning in <StatusCode>: Number of unchecked successes: 21
+Warning in <StatusCode>: To fail on an unchecked code, call StatusCode::enableFailure() at the job's start
+Warning in <StatusCode>:
