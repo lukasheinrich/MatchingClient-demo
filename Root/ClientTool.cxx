@@ -58,7 +58,7 @@ bool ClientTool::match(IExpertMatchingTool& imt){
     auto lead_el = recElectrons->at(0);
     auto lead_mu = recMuons->at(0);
     
-    bool matchresult = imt.match(make_reco({lead_el},{lead_mu}),"HLT_e17_loose_mu14");
+    bool matchresult = imt.match({lead_el,lead_mu},"HLT_e17_loose_mu14");
     
     ATH_MSG_INFO("match mixed chain: " << matchresult );
     
